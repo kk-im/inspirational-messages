@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+body {
+  background-color: rgb(30, 30, 30);
+  color: #f3f3f3;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.entry-page {
+  height: 90vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#entry-title {
+  font-size: 4rem;
+  margin-bottom: 10vh;
+}
+
+#entry-subheading {
+  font-size: 1.2rem;
+}
+
+#entry-subheading:hover {
+  color:coral;
+  cursor: pointer;
+}
+
+section {
+  padding: 50px 400px 150px 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-title {
+  font-size: 1.5em;
+  width: 80vw;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+div {
+  margin: 20px 0;
+}
+
+.vertical-line {
+  height: 10vh;
+  border-right: solid 1px #fff;
+}
+
+.video-container {
+  display: grid;
+  place-items: center;
+  grid-area: 1/1;
+}
+
+.video {
+  grid-area: 1/1;
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10vh;
+}
+
+.generator {
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  width: 150px;
+}
+
+.generator:hover {
+  background: #5d5d5d;
+  cursor: pointer;
+}
