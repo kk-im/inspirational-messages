@@ -66,30 +66,32 @@ div {
   display: grid;
   place-items: center;
   grid-area: 1/1;
+  height: 50vh;
 }
 
 .video {
   grid-area: 1/1;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 400px;
+  max-height: 400px;
   display: block;
 }
 
 footer {
-  position: fixed;
+  position: absolute;
+  display: flex;
+  justify-content: center;
   bottom: 0;
   left: 0;
   width: 100%;
-  text-align: center;
-  padding: 10vh;
 }
 
 .generator {
   text-transform: uppercase;
   padding: 5px;
-  margin: 0 auto;
   border: 1px solid #fff;
   width: 150px;
+  text-align: center;
+  margin-bottom: 10vh;
 }
 
 .generator:hover {
