@@ -1,26 +1,25 @@
-# hackathon-2021.vanilla-js.base-example
+# hackathon-2021
 
-This repository was created to be used during the [SheSharp Hackathon 2021](https://www.shesharp.co/2021-hackathon/) as a boilerplate for one of the challenges proposed.
+A project created for the SheSharp Hackathon 2021(https://www.shesharp.co/2021-hackathon/)
 
-## Requirements
+**Project requirements**
 
-To be able to develop a Vanilla website you will need:
+A successful project should:
 
-1. A github account and repository
-2. [VS Code](https://code.visualstudio.com/download) installed on your machine
-3. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension on VS Code
-4. With Live Server installed you can start a dev server follow the instructions on the install page
-5. Now you are ready to develop your site!
+- Generate supportive and/or inspirational messages (e.g. "You've got this!" or "All our dreams can come true, if we have the courage to pursue them.") Please note that all messages should follow our Hackathon Code of Conduct.
+- Display messages either on-demand (e.g. via button click, Twitter reply) or at timed intervals (e.g. daily reminder bot)
 
-## How do I set up github pages?
+**My take**
 
-- On your github repo go to the settings tab
-- In the menu at the left select the Pages tab
-- At **Source** select the branch: `main`
-- Keep the folder as: "/ (root)"
+They say
+    a picture is worth a thousand words...
+I say
+  the picture is worth a thousand more if: (1) It if a meme, and (2) if it makes you chuckle.
+  
+I created a nifty giph(t)y web app that generates a random gif when you click a button.
 
-Now you should see a green popup with your link
-
-## How can I update my github pages site?
-
-Because you have set up the GitHub pages it should be updated when you update your selected branch
+**Tech**
+- HTML5
+- CSS3
+- Vanilla JS
+- API Integration (GIPHY)
